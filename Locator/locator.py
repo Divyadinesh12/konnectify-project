@@ -1,0 +1,33 @@
+class WebLocator:
+    """
+    this class contains all the locators that are required to testing
+    """
+    def __init__(self):
+        self.mail_locator="//*[@id=':R2mjttnpja:-form-item']"
+        self.password_locator="//*[@id=':R4mjttnpja:-form-item']"
+        self.login_button_locator="/html/body/div[1]/div[3]/div/div[2]/form/div[3]/button"
+        self.new_button_locator="//*[@id='radix-:r1:']"
+        self.create_konnector_locator="//*[@id='konnector-table-row']/tr/td/div/button"
+        self.Trigger_locator="/html/body/div[1]/div/div/main/div/div/div/div[1]/div/div/div[2]/div[3]/button/div[2]"
+        self.search_button="//*[@id=':r2be:']"
+        self.Trigger_mail_locator="//*[@id=':r118:']/div/div[2]/div/div/div[3]/div[2]/div/div[2]"
+        self.select_connection="//*[@id='radix-:r46u:-content-configure']/div/form/div[2]/div/div[2]/div[2]/button"
+        self.option_connection="//*[@id=':r4du:']/div/div[2]/div[2]/div/div/div/div"
+        self.select_event="//*[@id='radix-:r4e8:-content-configure']/div/form/div[2]/div/div[3]/div[2]/button"
+        self.email_trigger="//*[@id=':r4eo:']/div/div[2]/div[2]/div/div/div/div/div[1]"
+        self.continue_configure="//*[@id='radix-:r4e8:-content-configure']/div/form/div[3]/button"
+        self.continue_dataoutput="//*[@id='radix-:r4il:-content-mapping']/div/div[3]/button[2]"
+        self.action_locator="/html/body/div[1]/div/div/main/div/div[2]/div/div[1]/div/div/div[2]/div[3]/button/div[2]"
+        self.action_select_app="//*[@id='radix-:r4io:-content-configure']/div/form/div[1]/div/div[1]/button"
+        self.action_google_form_locator="//*[@id=':r4tg:']/div/div[2]/div/div/div[3]/div[2]/div[4]/div[2]"
+        self.choose_connection="//*[@id='radix-:r4io:-content-configure']/div/form/div[1]/div/div[2]/div[2]/button"
+        self.create_connection_locator="//*[@id=':r50u:']/div/div/div/div"
+        self.connection_name="//*[@id=':r516:-form-item']"
+        self.validate_account_loacator="/html/body/div[1]/div/div/main/div/div[1]/div/div/div/form/button"
+        self.save_account="/html/body/div[1]/div/div/main/div/div[1]/div/div/div/form/button"
+        self.action_even="//*[@id='radix-:r51m:-content-configure']/div/form/div[1]/div/div[3]/div[2]/button"
+        self.action_event_option="//*[@id=':r51s:']/div/div[2]/div[2]/div/div/div/div/div"
+        self.action_continue="//*[@id='radix-:r51m:-content-configure']/div/form/div[2]/button"
+        self.google_formid_locator="//*[@id='radix-:r51m:-content-mapping']/div/div[2]/div/div/div/div/input"
+
+
